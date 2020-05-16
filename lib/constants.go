@@ -3,10 +3,10 @@ package lib
 //exported constants
 var (
 	QUOTE        byte = '"'
-	LEFTBRACKET  byte = '{'
-	RIGHTBRACKET byte = '}'
-	LEFTBRACE    byte = '['
-	RIGHTBRACE   byte = ']'
+	LEFTBRACKET  byte = '['
+	RIGHTBRACKET byte = ']'
+	LEFTBRACE    byte = '{'
+	RIGHTBRACE   byte = '}'
 	COMMA        byte = ','
 	COLON        byte = ':'
 	WHITESPACE        = []byte{' ', '\t', '\b', '\n', '\r'}
