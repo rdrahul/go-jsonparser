@@ -86,8 +86,6 @@ func Lex(input string) ([]string, SyntaxError) {
 
 	for ln > 0 {
 
-		// print("asdfasdf", tokens)
-
 		//remove whitespaces
 		if strings.Contains(string(WHITESPACE), string(input[0])) {
 			input = input[1:]

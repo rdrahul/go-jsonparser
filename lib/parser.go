@@ -86,9 +86,8 @@ func ParseObject(tokens []string) (map[string]interface{}, int) {
 }
 
 //Parser parses the tokens
-func Parser(tokens []string) {
-	//{
-	result, indx := ParseObject(tokens[1:])
-	fmt.Println(result, indx)
-
+func Parser(tokens []string) map[string]interface{} {
+	result, _ := ParseObject(tokens[1:])
+	fmt.Println(result)
+	return result
 }
